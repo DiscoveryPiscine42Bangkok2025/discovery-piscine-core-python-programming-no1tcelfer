@@ -1,6 +1,7 @@
 number = int(input("Enter a number less than 25"))
-for x in reversed(range(0,26)):
-  if number < 25:
-   break
-  else:
-   input("Error") 
+while number < 26:
+      print("Inside the loop, my variable is", number)
+      number += 1
+
+    number = int(input("Enter a number less than 25"))
+input(error)
