@@ -1,6 +1,3 @@
-import sys
-
-ultrasmooth = int(input("Number of parameters: "))
-num_params = len(sys.argv) - 1
-
-print(ultrasmooth, num_params)
+x = input("Enter how many words you like: ")
+y = x.split()
+print(f"Number of parameters: {len(y)}")
