@@ -1,0 +1,8 @@
+old = [5,4,781,5,123]
+
+new = list(set(old))
+for number in new:
+    if number >5:
+      new.append(number + 2)
+    
+print(new)

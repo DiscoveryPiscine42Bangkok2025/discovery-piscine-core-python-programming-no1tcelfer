@@ -1,3 +1,4 @@
-myage = 15
-sum = myage + 42
+myage = int(input("age"))
+number = 42
+sum = myage + number
 print(sum)
